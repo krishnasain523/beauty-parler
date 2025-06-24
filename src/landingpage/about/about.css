@@ -1,0 +1,8 @@
+#main
+{ 
+     background-image: url('/images/makeup.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; 
+      opacity: 0.9;
+}

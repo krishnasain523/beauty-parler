@@ -1,0 +1,13 @@
+#mainsec
+{ 
+     background-image: url('/images/pink.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; 
+      opacity: 1;
+}
+#texts
+{
+letter-spacing: 0.3;
+line-height: 1.5rem;
+}
