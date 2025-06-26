@@ -34,11 +34,11 @@ export default function Hero({ gallerytog }) {
             <div className="relative z-10 flex flex-col lg:flex-row items-center max-w-7xl mx-auto px-6 py-16">
                 {/* Image Grid */}
                 <div className="grid grid-cols-3 gap-4 md:w-3/5 w-full z-10" data-aos="fade-up">
-                    <img src="/images/gallery/img-11.jpg" alt="img1" className="w-full rounded-sm h-40 object-cover" />
-                    <img src="/images/gallery/img9.jpg" alt="img2" className="w-full rounded-sm h-40 object-cover" />
-                    <img src="/images/gallery/img2.jpg" alt="img3" className="w-full rounded-sm h-40 object-cover col-span-2 md:col-span-2" />
-                    <img src="/images/gallery/img6.jpg" alt="img4" className="w-full rounded-sm h-40 object-cover" />
-                    <img src="/images/gallery/img5.jpg" alt="img5" className="w-full rounded-sm h-40 object-cover" />
+                    <img src="/images/gallery/img13.jpg" alt="img1" className="w-full rounded-sm h-40 md:h-80 object-cover" />
+                    <img src="/images/gallery/img16.jpg" alt="img2" className="w-full rounded-sm h-40 md:h-70 object-cover" />
+                    <img src="/images/gallery/img17.jpg" alt="img3" className="w-full rounded-sm h-60 md:h-110 object-cover col-span-2 md:col-span-2" />
+                    <img src="/images/gallery/img9.jpg" alt="img4" className="w-full rounded-sm h-50  object-cover" />
+                    <img src="/images/gallery/img-11.jpg" alt="img5" className="w-full rounded-sm h-40 object-cover" />
                 </div>
 
                 {/* Text Content */}
