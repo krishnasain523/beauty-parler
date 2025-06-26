@@ -3,6 +3,11 @@ import React, { useState } from 'react';
 const galleryImages = [
   '/images/gallery/img4.jpg',
   '/images/gallery/img8.jpg',
+  '/images/gallery/img13.jpg',
+  '/images/gallery/img14.jpg',
+  '/images/gallery/img15.jpg',
+  '/images/gallery/img16.jpg',
+  '/images/gallery/img17.jpg',
   '/images/gallery/img9.jpg',
   '/images/gallery/img1.jpg',
   '/images/gallery/img5.jpg',
@@ -38,7 +43,7 @@ export default function Gallery() {
             onClick={() => openModal(src)}
             className="overflow-hidden rounded-xl shadow-lg transform transition duration-300 hover:scale-105 cursor-pointer"
           >
-            <img src={src} alt={`Gallery ${index + 1}`} className="w-full h-64 object-cover" />
+            <img src={src} alt={`Gallery ${index + 1}`} className="w-full h-100 object-cover" />
           </div>
         ))}
       </div>
