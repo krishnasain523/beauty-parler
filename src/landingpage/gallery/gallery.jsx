@@ -26,12 +26,12 @@ export default function Gallery() {
   }
 
   return (
-    <section id="gallery" className="bg-white py-20 px-6 md:px-20" data-aos="fade-up">
+    <section id="gallery" className="bg-white py-20 px-6 md:px-20 " >
       <h2 className="text-3xl font-bold text-center font-serif text-black mb-12">
         📸 Our Gallery
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 fade-right">
         {galleryImages.map((src, index) => (
           <div
             key={index}
@@ -46,7 +46,7 @@ export default function Gallery() {
       {/* Modal */}
       {selectedImage && (
         <div
-          className="fixed inset-0 z-50 bg-black bg-opacity-40 flex items-center justify-center transition-opacity duration-300"
+          className="fixed inset-0 z-[9999] bg-black bg-opacity-80 flex items-center justify-center transition-opacity duration-300"
         >
           <button
             onClick={closeModal}

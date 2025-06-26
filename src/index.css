@@ -90,6 +90,9 @@
   }
 }
 
+.clip-left-curve {
+  clip-path: polygon(0 0, 80% 0, 50% 100%, 0% 100%);
+}
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

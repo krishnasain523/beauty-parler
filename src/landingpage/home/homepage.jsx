@@ -8,7 +8,7 @@ export default function Homepage({aboutToggle,serviceToggle,galleryToggle,contac
     
     return(<>
     <Navbar abouttog={aboutToggle} servicetog={serviceToggle} gallerytog={galleryToggle} contecttog={contactToggle}/>
-    <Hero/>
+    <Hero gallerytog={galleryToggle}/>
     <Footer/>
     
     </>)

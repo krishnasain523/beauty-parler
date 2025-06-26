@@ -6,10 +6,10 @@ const Navbar = ({ hometog,abouttog,gallerytog,servicetog,contecttog}) => {
   return (
     <nav className="flex items-center justify-between bg-[#ffd0d2] px-8 py-4 relative">
       {/* Logo */}
-      <div className="ml-0 sm:ml-10" id="logoimg" onClick={hometog}>
+      <div className="ml-0 sm:ml-10 h-25 w-25 rounded-[50%] border-5 border-white overflow-hidden  " id="logoimg" onClick={hometog}>
         <img
-          className="h-25"
-          src="/images/logo-2.png" // remove `/public` from path
+          className=" object-cover "
+          src="/images/gallery/logoimg.png" // remove `/public` from path
           alt="Logo"
         />
       </div>
@@ -17,10 +17,10 @@ const Navbar = ({ hometog,abouttog,gallerytog,servicetog,contecttog}) => {
       {/* Desktop Menu */}
       <div className="hidden lg:flex gap-10 mr-10 text-lg">
        <button onClick={hometog}>Home</button>
-       <button onClick={abouttog}>About us</button>
+       <button onClick={abouttog}>About Us</button>
         <button onClick={servicetog}>Services</button>
         <button onClick={gallerytog}>Gallery</button>
-        <button onClick={contecttog}>Contact us</button>
+        <button onClick={contecttog}>Contact Us</button>
       </div>
 
       {/* Hamburger Icon */}
@@ -51,10 +51,10 @@ const Navbar = ({ hometog,abouttog,gallerytog,servicetog,contecttog}) => {
         }`}
       >
         <button onClick={hometog}>Home</button>
-        <button onClick={abouttog}>About us</button>
+        <button onClick={abouttog}>About Us</button>
         <button onClick={servicetog}>Services</button>
         <button onClick={gallerytog}>Gallery</button>
-        <button onClick={contecttog}>Contact us</button>
+        <button onClick={contecttog}>Contact Us</button>
       </div>
     </nav>
   );

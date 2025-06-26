@@ -6,7 +6,7 @@ const services = [
   {
     category: 'Makeup',
     icon: <FaMagic size={30} className="text-pink-300" />,
-    image: '/images/makeupservice.jpg',
+    image: '/images/gallery/img13.jpg',
     items: [
       'Bridal Makeup',
       'Party Makeup',
@@ -17,7 +17,7 @@ const services = [
   {
     category: 'Hair Services',
     icon: <FaCut size={30} className="text-pink-300" />,
-    image: '/images/hairservice.jpg',
+    image: '/images/gallery/img1.jpg',
     items: [
       'Hair Rebonding',
       'Hair Straightening',
@@ -29,7 +29,7 @@ const services = [
   {
     category: 'Skin Care',
     icon: <FaLeaf size={30} className="text-pink-300" />,
-    image: '/images/skincare.jpg',
+    image: '/images/gallery/img12.jpg',
     items: [
       'Facial (Glow, Gold, Fruit, Herbal)',
       'Bleaching',
@@ -44,7 +44,7 @@ export default function Services() {
     <div className="bg-white py-16 px-6 md:px-20" id="services">
       <h2 className="text-3xl font-bold font-serif text-center text-black mb-12" data-aos="fade-up">💇‍♀️ Our Beauty Services</h2>
       
-      <div className="grid gap-20 md:grid-cols-3" data-aos="fade-up">
+      <div className="grid gap-25 md:gap-10 md:grid-cols-3" data-aos="fade-up">
         {services.map((service, index) => (
           <div
             key={index}
@@ -53,9 +53,9 @@ export default function Services() {
             <img
               src={service.image}
               alt={service.category}
-              className="w-full h-52 object-cover"
+              className="w-full h-[350px]  object-cover rounded-t-xl"
             />
-            <div className="p-6">
+            <div className="p-4">
               <div className="flex items-center gap-2 mb-4 text-xl font-semibold text-white">
                 {service.icon}
                 {service.category}
