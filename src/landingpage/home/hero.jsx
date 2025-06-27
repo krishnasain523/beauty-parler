@@ -11,11 +11,13 @@ export default function Hero({ gallerytog }) {
         <section className=" min-h-screen flex flex-col md:flex-row items-center justify-between px-6 py-10 scroll smooth" id='mainsec' >
             {/* Text */}
             <div className="md:w-1/2  pl-0 md:pl-50 mb-0 md:mb-30 text-center md:text-left space-y-3 slide-up " data-aos="fade-up">
-                <h3 className="text-md text-black">Enhance Your Beauty with</h3>
+                <h3 className="text-md text-black">Where glamour meets grace</h3>
                 <h1 className="text-5xl font-bold text-black">She Beauty Parlor</h1>
                 <h2 className="text-lg font-semibold text-black"><i>Shamli’s Most Trusted Salon</i></h2>
                 <p className="text-md text-black max-w-md mx-auto md:mx-0">
-                    From stunning makeovers to premium hair care — everything you need to feel beautiful, all in one place.
+                   Where flowless makeup meets timeless elegance.</p>
+                 <p className="text-md text-black max-w-md mx-auto md:mx-0">
+                  Our expert artists craft bespoke looks-from radiant bridal glam to high-fashion perfection. indulge in premium products,precision techniques,and a touch of pure luxury.
                 </p>
             </div>
 
